@@ -448,9 +448,9 @@ about css start */
 }
 .signature-image{}
 .signature-image img {
-	width: 100px;
-	margin-top: 1.4rem;
-	margin-bottom: 1.3rem;
+	width: 175px;
+	margin-top: 2.4rem;
+	margin-bottom: 2.3rem;
 }
 .experience-content a {
 	text-decoration: none;
@@ -514,7 +514,8 @@ about css start */
 	text-align: center;
 	box-sizing: border-box;
 	position: relative;
-	position: relative;
+	background-color: #fff;
+
 }
 
 .our-services .serrvice-content::after {
@@ -625,7 +626,7 @@ about css start */
 
 .introduce-our-team {
 	margin-top: -260px;
-	z-index: 999;
+	z-index: 1;
 	position: relative;
 }
 .introduce-our-team .team-content {
