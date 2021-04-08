@@ -17,6 +17,9 @@
     .carusel-section .carusel-content h1 {
         font-size: 2.9rem;
     }
+    .customer-section {
+        padding: 19px 10px;
+    }
 }
 @media all and (max-width:1200px){
     .business-consulting {
