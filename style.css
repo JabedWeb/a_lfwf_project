@@ -759,17 +759,20 @@ about css start */
 
 skills-image{}
 skills-image img{}
-#bussiness{
-	position: relative !important;
+
+
+#Bussines\ progress-us::before {
+	position: absolute;
+	content: "";
+	width: 10px;
+	height: 100%;
+	background: #ccc;
+	top: 0;
+	right: 0;
 }
-#Bussines::before {
-	position: absolute !important;
-	content:"";
-	width: 9px !important;
-	height: 100% !important;
-	background: #ccc !important;
-	top: 0 !important;
-	right: 0 !important;
+
+#Bussines\ progress-us {
+	position: relative;
 }
 
 
