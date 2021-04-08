@@ -86,7 +86,7 @@
         height: 0;
         width: 100%;
         margin-left: -18px;
-        visibility: hidden;
+        /* visibility: hidden; */
     }
 
 
@@ -98,7 +98,7 @@
         opacity: 1;  
         height: 100%;
         opacity: 1;
-        visibility: visible;
+        /* visibility: visible; */
     }  
     #humburger:checked ~ .menu-start {
         display: none;
