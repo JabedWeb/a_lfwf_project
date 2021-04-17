@@ -25,7 +25,8 @@ defaul css end
 header-top css start */
 
 header{
-    background-color: blue;
+	background: linear-gradient(166deg, rgba(16,139,210,1) 28%, rgba(28,106,192,1) 41%, rgba(46,56,166,1) 71%);
+
     color: #fff;
     z-index: 99;
 }
@@ -312,7 +313,7 @@ button .next {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    background-image: linear-gradient(to right top, #2563d6, #225fd0, #1e5acb, #1b56c5, #1752c0, #1550be, #134ebb, #114cb9, #114cb9, #114cb9, #114cb9, #114cb9);
+	background: linear-gradient(166deg, rgba(16,139,210,1) 28%, rgba(28,106,192,1) 41%, rgba(46,56,166,1) 71%);
     padding: 10px 30px;
     border-radius: 5px;
     transition: .5s;
@@ -370,24 +371,31 @@ about css start */
 	right: 0;
 	margin: auto;
 	display: inline-block;
-	width: 40%;
-	height: 43px;
-    background-image: linear-gradient(to right top, #2563d6, #225fd0, #1e5acb, #1b56c5, #1752c0, #1550be, #134ebb, #114cb9, #114cb9, #114cb9, #114cb9, #114cb9);
+	width: 27%;
+	height: 53px;
+	background: linear-gradient(166deg, rgba(16,139,210,1) 28%, rgba(28,106,192,1) 41%, rgba(46,56,166,1) 71%);
 	color: #fff;
-	line-height: 43px;
+	line-height: 53px;
 	text-align: center;
-    border-radius: 20px;
-    /* position: relative; */
+	border-radius: 44px;
+	/* position: relative; */
+	bottom: -27px;
+	z-index: 1;
+	transition: .3s ease;
+}
+.cart-content span:hover {
+	width: 30%;
 }
 .cart-content span::before {
 	content: "";
 	position: absolute;
-	background-image: linear-gradient(to right top, #2563d6, #225fd0, #1e5acb, #1b56c5, #1752c0, #1550be, #134ebb, #114cb9, #114cb9, #114cb9, #114cb9, #114cb9);
+	background-color: #108BD2;
 	width: 0;
 	height: 3px;
-	top: 40%;
-	right: 57%;
-    transition: .6s;
+	top: 45%;
+	right: 100%;
+	transition: .6s;
+	z-index: -1;
 }
 .cart-content span::after {
 	content: "";
@@ -395,9 +403,10 @@ about css start */
 	background-image: linear-gradient(to right top, #2563d6, #225fd0, #1e5acb, #1b56c5, #1752c0, #1550be, #134ebb, #114cb9, #114cb9, #114cb9, #114cb9, #114cb9);
 	width: 0;
 	height: 3px;
-	top: 40%;
-	left: 57%;
+	top: 45%;
+	left: 100%;
     transition: .6s;
+	z-index: -1;
 }
 .cart-content span:hover::before {
     width: 97%;
@@ -456,10 +465,13 @@ about css start */
 	text-decoration: none;
 	font-weight: 600;
 	display: inline-block;
-	background-color: blue;
+	background: linear-gradient(166deg, rgba(16,139,210,1) 28%, rgba(28,106,192,1) 41%, rgba(46,56,166,1) 71%);
 	color: #fff;
 	padding: 10px 30px;
 	border-radius: 5px;
+}
+.experience-content a:hover {
+	background: linear-gradient(-166deg, rgba(16,139,210,1) 28%, rgba(28,106,192,1) 41%, rgba(46,56,166,1) 71%);
 }
 .customer-sections{
 	padding: 5rem 0;
@@ -773,6 +785,7 @@ skills-image img{}
 
 #Bussines\ progress-us {
 	position: relative;
+	background: linear-gradient(166deg, rgba(16,139,210,1) 28%, rgba(28,106,192,1) 41%, rgba(46,56,166,1) 71%);
 }
 
 
@@ -790,7 +803,7 @@ skills-image img{}
 	width: 200px;
 	display: inline-block;
 	height: 100px;
-	background: blue;
+	background: linear-gradient(166deg, rgba(16,139,210,1) 28%, rgba(28,106,192,1) 41%, rgba(46,56,166,1) 71%);
 	opacity: 1;
 	border-radius: 5px;
 	line-height: 111px;
@@ -906,8 +919,8 @@ skills-image img{}
     border: 15px solid transparent;
     top: 0;
     left: 0;
-    border-top-color: blue;
-    border-left-color: skyblue;
+    border-top-color: #4882E4;
+    border-left-color: #6365B9;
     z-index: 1;
 }
 .our-contact-form .fram2 {
@@ -918,8 +931,8 @@ skills-image img{}
     border: 15px solid transparent;
     top: 0;
     right: 0;
-    border-top-color: blue;
-    border-right-color: skyblue;
+    border-top-color: #4882E4;
+    border-right-color: #6365B9;
     z-index: 1;
 }
 
@@ -971,11 +984,11 @@ skills-image img{}
     padding: 100px 0;
 }
 .consulting-title {
-    border-left: 7px solid blue;
+    border-left: 7px solid #0C59DB;
     padding-left: 12px;
 }
 .consulting-title h2 {
-    color: blue;
+    color: #0C59DB;
     font-size: 1.2rem;
 }
 .consulting-title h5 {
@@ -1055,7 +1068,7 @@ skills-image img{}
 	left: -24px;
 	width: 40%;
 	height: 3px;
-	background-color: blue;
+	background-color: #0C59DB;
 	z-index: -1;
 }
 .consulting-content .consulting-text h6 {
@@ -1068,7 +1081,7 @@ skills-image img{}
     font-size: 1.6rem;
     width: 50px;
     height: 50px;
-    background: blue;
+    background: #0C59DB;
     text-align: center;
     line-height: 50px;
     color: #fff;
@@ -1098,7 +1111,7 @@ skills-image img{}
 .latest-title h2 {
 	position: relative;
 	font-size: 1.2rem;
-	color: blue;
+	color: #0C59DB;
 	margin-left: 65px;
 }
 .latest-title h5 {
@@ -1114,18 +1127,22 @@ skills-image img{}
 	left: -59px;
 	width: 48px;
 	height: 2px;
-	background: blue;
+	background: #0C59DB;
 }
 .news-btn{}
 .news-btn a {
 	text-decoration: none;
-	background: blue;
+	background: linear-gradient(166deg, rgba(16,139,210,1) 28%, rgba(28,106,192,1) 41%, rgba(46,56,166,1) 71%);
 	display: inline-block;
 	color: #fff;
 	padding: 15px 56px;
 	border-radius: 5px;
 	font-weight: 500;
 	margin-top: 3rem;
+}
+.news-btn a:hover {
+	background: linear-gradient(-166deg, rgba(16,139,210,1) 28%, rgba(28,106,192,1) 41%, rgba(46,56,166,1) 71%);
+
 }
 /* ==========latest-news============== */
 
@@ -1166,7 +1183,7 @@ skills-image img{}
     position: absolute;
     text-decoration: none;
     color: #fff;
-    background: blue;
+    background: #0C59DB;
     padding: 5px;
     display: inline-block;
     left: 0;
@@ -1239,7 +1256,7 @@ skills-image img{}
 	left: 48%;
 	width: 45px;
 	height: 3px;
-	background-color: blue;
+	background-color: #0C59DB;
 }
 .testimonial-title h5 {
 	font-size: 2.9rem;
@@ -1300,7 +1317,6 @@ skills-image img{}
 }
 button span {
 	/* margin-left: -101px; */
-	background: blue;
 	border-radius: 50%;
 	width: 45px;
 	height: 45px;
@@ -1417,11 +1433,12 @@ button span {
 	 outline: none;
  }
  .footer-link form button {
-	 color: #fff;
-	 background: blue;
-	 padding: 10px 20px;
-	 font-weight: 700;
- }
+	color: #fff;
+	background: linear-gradient(166deg, rgba(16,139,210,1) 28%, rgba(28,106,192,1) 41%, rgba(46,56,166,1) 71%);
+	padding: 2px 49px;
+	font-weight: 500;
+	border-radius: 7px;
+}
  .footer-link form button:hover {
 	color: #fff !important;
  }
