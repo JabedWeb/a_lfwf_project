@@ -483,7 +483,6 @@ about css start */
 
 .customer-section{
 	display: flex;
-	flex-wrap: wrap;
 	background-color: #edf1f999;
 	justify-content: space-between;
 	padding: 20px 30px;
