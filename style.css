@@ -473,14 +473,51 @@ about css start */
 .experience-content a:hover {
 	background: linear-gradient(-166deg, rgba(16,139,210,1) 28%, rgba(28,106,192,1) 41%, rgba(46,56,166,1) 71%);
 }
+
+
+/* customer section css start */
 .customer-sections{
 	padding: 5rem 0;
 }
-.customer-section {
-	box-shadow: 3px 4px 20px 3px rgb(221, 221, 221,.5);
-	background: #ccc;
+
+
+.customer-section{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #edf1f999;
+	justify-content: space-between;
 	padding: 20px 30px;
+	position: relative;
+	transition: 0.5s;
+	z-index: 1;
+  }
+  .customer-section::after {
+	content: "";
+	position: absolute;
+	top: -13px;
+	left: -13px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-color: #edf1f966;
+	transition: 0.5s;
+  }
+  .customer-section:hover {
+	transform: translateY(+6px);
+  }
+  .customer-section:hover::after {
+	transform: translateY(-6px);
+  }
+  .customer-section .customer-section-right span {
+	color: blue;
+	display: inline-block;
+	font-size: 3rem;
+	transition: .5s;
 }
+.customer-section:hover .customer-section-right span {
+	transform: translateY(+6px);
+  }
+
 .customer-section .customer-section-left{}
 .customer-section .customer-section-left h5 {
 	font-size: 2.5rem;
@@ -488,15 +525,10 @@ about css start */
 }
 .customer-section .customer-section-left p{}
 .customer-section .customer-section-right {}
-.customer-section .customer-section-right span {
-	color: blue;
-	display: inline-block;
-	font-size: 3rem;
-	transition: .5s;
-}
-.customer-section:hover .customer-section-right span {
+
+/* .customer-section:hover .customer-section-right span {
  transform: translateY(-5px);
-}
+} */
 
 /* our-services */
 .our-services {
