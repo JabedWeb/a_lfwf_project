@@ -1472,6 +1472,10 @@ button span {
 	font-weight: 500;
 	border-radius: 7px;
 }
+ .footer-link form button:hover {
+	color: #fff;
+	background: linear-gradient(-166deg, rgba(16,139,210,1) 28%, rgba(28,106,192,1) 41%, rgba(46,56,166,1) 71%);
+}
 .footer-link button span {
 	/* margin-left: -101px; */
 	border-radius: 50%;
